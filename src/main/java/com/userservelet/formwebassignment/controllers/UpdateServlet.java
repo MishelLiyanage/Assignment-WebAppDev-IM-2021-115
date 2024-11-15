@@ -1,6 +1,8 @@
 package com.userservelet.formwebassignment.controllers;
 
 import java.io.IOException;
+import java.io.Serial;
+
 import com.userservelet.formwebassignment.model.DataManager;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -10,6 +12,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 @WebServlet("/UpdateServlet")
 public class UpdateServlet extends HttpServlet {
+    @Serial
     private static final long serialVersionUID = 1L;
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

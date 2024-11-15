@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -36,7 +36,7 @@
     <a href="search.jsp">Search Data</a>
     <a href="authenticateUpdate.jsp">Update Data</a>
     <a href="authenticateDelete.jsp">Delete Data</a>
-    <a href="sortFiltering.jsp">Sorting & Filtering Data</a>
+<%--    <a href="sortFiltering.jsp">Sorting & Filtering Data</a>--%>
 </div>
 </body>
 </html>

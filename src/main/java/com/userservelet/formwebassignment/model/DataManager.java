@@ -4,9 +4,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.Date;
-import java.util.List;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.transform.Transformer;
@@ -19,7 +17,7 @@ import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 
 public class DataManager {
-    private File xmlFile;
+    private final File xmlFile;
 
     public DataManager(String filePath) {
         this.xmlFile = new File(filePath);
@@ -109,22 +107,5 @@ public class DataManager {
         return deleted;
     }
 
-    public List<Entry> getEntries() throws Exception {
-        List<Entry> entries = new ArrayList<>();
-        Document doc = getDocument();
-        NodeList nList = doc.getElementsByTagName("entry");
-
-        for (int temp = 0; temp < nList.getLength(); temp++) {
-            Element entryElement = (Element) nList.item(temp);
-            Entry entry = new Entry();
-            entry.setId(entryElement.getAttribute("id"));
-            entry.setName(entryElement.getElementsByTagName("name").item(0).getTextContent());
-            entry.setAge(Integer.parseInt(entryElement.getElementsByTagName("age").item(0).getTextContent()));
-            entry.setEmail(entryElement.getElementsByTagName("email").item(0).getTextContent());
-            entries.add(entry);
-        }
-
-        return entries;
-    }
 }
 

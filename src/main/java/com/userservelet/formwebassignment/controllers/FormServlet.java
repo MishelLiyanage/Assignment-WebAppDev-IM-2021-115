@@ -1,6 +1,7 @@
 package com.userservelet.formwebassignment.controllers;
 
 import java.io.IOException;
+import java.io.Serial;
 
 import com.userservelet.formwebassignment.model.DataManager;
 import jakarta.servlet.ServletException;
@@ -11,9 +12,10 @@ import jakarta.servlet.http.HttpServletResponse;
 
 @WebServlet(name = "FormServlet", value = "/FormServlet")
 public class FormServlet extends HttpServlet {
+    @Serial
     private static final long serialVersionUID = 1L;
 
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
         // Get form data the user entered
         String name = request.getParameter("name");
         String ageStr = request.getParameter("age");

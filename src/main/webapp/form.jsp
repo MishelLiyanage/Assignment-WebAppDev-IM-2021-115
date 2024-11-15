@@ -4,7 +4,7 @@
   Date: 11/12/2024
   Time: 8:10 AM
 --%>
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ include file="navigationBar.jsp" %>
 <!DOCTYPE html>
 <html>
@@ -57,16 +57,6 @@
             margin-bottom: 10px;
             padding: 10px;
             border-radius: 4px;
-        }
-        .success {
-            background-color: #d4edda;
-            color: #155724;
-            border: 1px solid #c3e6cb;
-        }
-        .error {
-            background-color: #f8d7da;
-            color: #721c24;
-            border: 1px solid #f5c6cb;
         }
     </style>
 </head>
