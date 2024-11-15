@@ -36,7 +36,7 @@
     <a href="search.jsp">Search Data</a>
     <a href="authenticateUpdate.jsp">Update Data</a>
     <a href="authenticateDelete.jsp">Delete Data</a>
-<%--    <a href="sortFiltering.jsp">Sorting & Filtering Data</a>--%>
+    <a href="SortFilter.jsp">Sorting & Filtering Data</a>
 </div>
 </body>
 </html>

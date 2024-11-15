@@ -17,6 +17,7 @@
             margin-left: 50px;
             font-size: 30px;
             margin-top: 50px;
+            text-align: center;
         }
         table {
             margin-left: 100px;
