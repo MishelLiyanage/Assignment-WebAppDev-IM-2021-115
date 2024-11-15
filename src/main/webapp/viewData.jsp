@@ -42,7 +42,7 @@
     </style>
 </head>
 <body>
-<h2>Data Entries</h2>
+<h2>Student Details</h2>
 <table>
     <tr>
         <th>ID</th>
