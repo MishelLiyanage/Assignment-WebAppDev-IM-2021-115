@@ -16,14 +16,10 @@ This web application allows users to manage data related to students. It uses Ja
 - An IDE like IntelliJ IDEA, Eclipse, or NetBeans
 - Maven (if using Maven for project management)
 
-## Project Structure
-FormWebAssignment/ ├── src/ │ └── main/ │ └── java/ │ └── com/ │ └── userservelet/ │ └── formwebassignment/ │ └── controllers/ │ ├── FormServlet.java │ ├── UpdateServlet.java │ ├── DeleteServlet.java │ ├── SearchServlet.java │ └── SortFilterServlet.java │ └── model/ │ ├── DataManager.java │ └── Entry.java ├── web/ │ └── WEB-INF/ │ └── web.xml │ ├── form.jsp │ ├── update.jsp │ ├── delete.jsp │ ├── search.jsp │ ├── sortFilter.jsp │ ├── sortedFilteredResults.jsp │ └── navigationBar.jsp └── data.xml
-
-
 ## Deployment Instructions
 1. **Clone the Repository**: Clone the project repository to your local machine.
    ```sh
-   git clone <repository-url>
+   git clone <https://github.com/MishelLiyanage/Assignment-WebAppDev-IM-2021-115.git>
 Open the Project: Open the project in your preferred IDE.
 
 Configure Tomcat: Ensure that Apache Tomcat is configured in your IDE.
@@ -37,39 +33,46 @@ Access the Application: Open a web browser and navigate to:
 
 http://localhost:8080/FormWebAssignment_war_exploded/
 
-Usage Instructions
-Add Entry:
+## Usage Instructions
+
+### Add Entry:
 
 Navigate to the "Add Entry" page using the navigation bar.
 Fill out the form with the required details (Name, Age, Email).
 Click "Submit" to save the entry.
-Update Entry:
+
+### Update Entry:
 
 Navigate to the "Update Entry" page using the navigation bar.
 Enter the ID of the entry you want to update.
 Fill out the new details (Name, Age, Email).
 Click "Update" to save the changes.
-Delete Entry:
+
+### Delete Entry:
 
 Navigate to the "Delete Entry" page using the navigation bar.
 Enter the ID of the entry you want to delete.
 Click "Delete" to remove the entry.
-Search Entry:
+
+### Search Entry:
 
 Navigate to the "Search Entry" page using the navigation bar.
 Enter the email of the entry you want to search for.
 Click "Search" to find the entry.
-Sort and Filter:
+
+### Sort and Filter:
 
 Navigate to the "Sort and Filter" page using the navigation bar.
 Select the sorting order (Ascending/Descending) and enter the age range.
 Click "Apply" to view the sorted and filtered results.
-Troubleshooting
+
+## Troubleshooting
 404 Error: Ensure that the URL is correct and matches the servlet mappings in web.xml.
 500 Error: Check the server logs for detailed error messages and stack traces.
 Form Validation Errors: Ensure all required fields are filled out correctly.
-License
+
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contact
-For any questions or issues, please contact [Your Name] at [your-email@example.com].
+## Contact
+For any questions or issues, please contact **Mishel Fernando** at **mailtomishel@gmail.com**.
