@@ -82,29 +82,6 @@
         }
 
     %>
-
-<%--    <tbody>--%>
-<%--    <%--%>
-<%--        // Print the entries list to the console--%>
-<%--        List<Student> entries = (List<Student>) request.getAttribute("entries");--%>
-
-<%--        if (entries != null) {--%>
-<%--            for (Student student : entries) {--%>
-<%--                --%>
-<%--                --%>
-
-<%--                String id = student.getId();--%>
-<%--          System.out.println("ID: " + student.getId() + ", Name: " + student.getName() + ", Age: " + student.getAge() + ", Email: " + student.getEmail());--%>
-<%--            }--%>
-<%--        } else {--%>
-<%--            System.out.println("The entries list is null.");--%>
-<%--        }--%>
-<%--    %>--%>
-<%--&lt;%&ndash;    <c:forEach  items="${students}" var='student'>&ndash;%&gt;--%>
-
-<%--       --%>
-<%--&lt;%&ndash;    </c:forEach>&ndash;%&gt;--%>
-<%--    </tbody>--%>
 </table>
 </body>
 </html>
