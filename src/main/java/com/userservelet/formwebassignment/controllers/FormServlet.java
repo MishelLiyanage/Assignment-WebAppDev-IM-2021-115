@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.io.Serial;
 
 import com.userservelet.formwebassignment.model.DataManager;
-import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
